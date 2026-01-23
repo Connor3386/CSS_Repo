@@ -7,8 +7,10 @@
             font-family:Georgia, 'Times New Roman', Times, serif;
         }
         p {
+            font-size:xx-small;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             font-variant: small-caps;
+            margin:50px;
         }
         .strikethrough {
             text-decoration: line-through;
@@ -18,10 +20,15 @@
             border-width: 10px;
             border-style: dashed;
             border-color: black;
+            padding: 20px;
+            margin:0px
         }
 
         .bigDiv{
             font-size: larger;
+            text-align: right;
+            padding:70px;
+            margin:20px;
         }
 
         .smallDiv{
