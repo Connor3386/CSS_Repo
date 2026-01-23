@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormPage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="redDiv"><h1>Do you want 45 minute lunches?</h1></div>
+    <p><h2><i>Please</i> fill out the <b>form </b>below. Thank you for your cooperation.</p></h2>
+    <br>
+    <br>
+    <!-- Inserting image blow: -->
+    <img src="Images/Lunchroom.jpg" width="300" height="200">
+
+    <form action="results.html" method="get">
+        <div class="smallDiv">
+        <br><p id="yellowText">How long do you think lunch should be?</p>
+        <br><input type="radio" name="LunchLength" value="15" id="Bullet1"> <label for="Bullet1">15 minutes</label>
+        <br><input type="radio" name="LunchLength" value="30" id="Bullet2"> <label for="Bullet2">30 minutes</label>
+        <br><input type="radio" name="LunchLength" value="45" id="Bullet3"> <label for="Bullet3">45 minutes</label>
+        </div>
+
+        <div class="blueDiv">
+        <br><br> <label for="food"> <p>Of the ones on this list, which is your favorite food? </p></label>
+        <br><select id="FavoriteFood" name="favfood" id="food">
+            <option value="Pizza">Pizza</option>
+            <option value="Burger">Burger</option>
+            <option value="IceCream">Ice Cream</option>
+            <option value="Chicken">Chicken</option>
+        </select>
+        </div>
+
+        <div class="bigDiv">
+        <br><br> <label for="LongQuestion">If lunch was longer, what would you do during the additional time?</label>
+        <br><input type="text" name="AdditionalTime" placeholder="Write your answer here" id="LongQuestion">
+
+        <br><br> <label for="LongerQuestion">If lunch was shorter, what would you not have time to do?</label>
+        <br><input type="text" name="LessTime" placeholder="Write your answer here" id="LongerQuestion">
+        </div>
+
+
+        <br><br><input type="submit" value="Press Submit">
+        
+        <div>
+        <br><br><img src="Images/Food.jpg" width="300" height="200">
+        </div>
+
+    </form>
+    
+</body>
+</html>

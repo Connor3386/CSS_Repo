@@ -1,0 +1,42 @@
+        h1 {
+            color:blueviolet;
+            background-color: burlywood;
+        }
+        h2 {
+            color: pink;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+        p {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-variant: small-caps;
+        }
+        .strikethrough {
+            text-decoration: line-through;
+        }
+        div {
+            background-color: beige;
+            border-width: 10px;
+            border-style: dashed;
+            border-color: black;
+        }
+
+        .bigDiv{
+            font-size: larger;
+        }
+
+        .smallDiv{
+            font-size: smaller;
+        }
+
+        .redDiv{
+            border-color:red
+        }
+
+        .blueDiv{
+            border-color: blue;
+        }
+
+        #yellowText{
+            color:yellow;
+        }
+
